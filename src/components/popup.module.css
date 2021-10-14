@@ -1,0 +1,203 @@
+.popup {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.isActive {
+    opacity: 1;
+    transition: 0.5s;
+    pointer-events: all;
+}
+
+.content {
+    position: absolute;
+    left: 444px;
+    top: 120px;
+    width: 552px;
+    height: 476px;
+    background-color: #FFFFFF;
+
+    color: black;
+    border-radius: 30px;
+}
+
+.header {
+    position: absolute;
+    width: 237px;
+    height: 40px;
+    left: 32px;
+    top: 32px;
+
+    /* Desktop/H3 */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+
+    color: #000000;
+}
+
+.text {
+    position: absolute;
+    width: 488px;
+    height: 72px;
+    left: 32px;
+    top: calc(50% - 72px/2 - 114px);
+    text-align: left;
+
+    /* Desktop/Body 14 */
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    color: #808080;
+}
+
+.x {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 496px;
+    top: 16px;
+    font-size: 18px;
+    color: #EA0029;
+}
+
+.x:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+textarea {
+    /* Rectangle 201 */
+    resize: none;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 44.44%;
+    bottom: 0%;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-top: 8px;
+
+    border: 1px solid #DFE3E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#input_idle {
+    position: absolute;
+    width: 488px;
+    height: 72px;
+    left: 32px;
+    top: 184px;
+    text-align: left;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.calculate {
+    /* Рассчитать */
+    position: absolute;
+    left: 32px;
+    top: 55.46%;
+    bottom: 39.5%;
+
+    /* Desktop/Caption 14 */
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    /* Red */
+    color: #EA0029;
+}
+
+.calculate:hover {
+    cursor: pointer;
+}
+
+.button {
+
+    /* Btn */
+    position: absolute;
+    width: 488px;
+    height: 56px;
+    left: 32px;
+    top: 388px;
+
+    /* White */
+    border: none;
+    filter: drop-shadow(0px 0px 44px #CFDAE7);
+    border-radius: 6px;
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+
+    /*Font*/
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button:hover {
+    background-color: red;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.group {
+    position: absolute;
+    width: 290px;
+    height: 36px;
+    left: 32px;
+    top: 312px;
+    align-items: center;
+
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.tag {
+    align-items: center;
+    padding: 6px 12px;
+    color: black;
+    margin: auto;
+
+    background: #EEF0F2;
+    border-radius: 50px;
+}
+
+.tag:hover {
+    cursor: pointer;
+    background: #DFE3E6;
+}
+
+.tagIsActive {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 6px 12px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.tagIsActive:hover {
+    cursor: pointer;
+    background-color: red;
+}
